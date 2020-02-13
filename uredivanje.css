@@ -1,0 +1,282 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------navigacijska traka------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+    
+}
+.navbar-nav li
+{
+    padding: 0 10;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: greenyellow!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-------slajdovi------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color: white;
+    font-size: 60px;
+}
+/*-------O NAMA------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*-------USLUGE------*/
+#services
+{
+    background: #ace2a7;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color:black !important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#services h3
+{
+    color: black;
+}
+#services .icon
+{
+    color: black;
+}
+#services p
+{
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+.services .col-md-3:hover
+{
+    background: green;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#about-content p
+{
+    text-align: justify;
+}
+/*-------CJENIK------*/
+#price
+{
+    padding: 40px 0;
+    background: #bdb7b7;
+}
+#price h1
+{
+    text-align: center;
+}
+.single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color:white;
+    transition: 0.5s;
+
+}
+.single-price:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+.price-head
+{
+    background-color: rgb(25, 201, 25);
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.price-head p
+{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span
+{
+    font-size: 15px;
+}
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 25px 10px;
+    list-style: none;
+}
+ul li:last-child
+{
+    border: none;
+}
+.fa-check-circle-o
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-arrow-right
+{
+    color: green;
+    margin-right: 10px;
+}
+.about-content p
+{
+    text-align: justify;
+}
+.about-content p
+{
+    text-align: justify;
+}
+/*-------KONTAKT------*/
+#contact
+{
+    background: rgb(173, 235, 173);
+}
+.follow1
+{
+    background: white;
+    padding: 10px;
+    margin: 15px;
+}
+.follow
+{
+    background: white;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: green;
+    font-weight: bold;
+}
+.contact-info1 .fa
+{
+    margin: 10px;
+    color: green;
+    font-weight: bold;
+}
+#contact h1
+{
+    text-align: center;
+    color:black !important;
+    padding-bottom: 10px;
+}
